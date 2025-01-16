@@ -1,0 +1,19 @@
+container is a way to package all the necessary dependencies and configuration.
+portable package - easily shared
+makes development and deployement easy 
+container is stored in container repository
+how containers improve application development- before containers , developers working on application have to install most of the services on their operating system directly 
+
+each developer need to install application specific version.
+installation process is diff on each OS environment.
+
+but with conatiners - u dont have to install every service on ur OS , becoz container is its own isolated operating system layer with linux base images 
+
+you have everything packaged in one isolated env  with all needed configurations,
+so u can easily share the container with other developers and they can download it on their local and run it and fetching and starting requires few docker commands same for all the OS 
+no environmental configuration needed on server- only thing you need to do is install and setup   docker runtime on server 
+
+technically container is made up of images, we have layers of stacked images/layers on top of each other and at the base of most of the container you would have a linux based image which is either alpine with a specific version, 
+
+the application packaged together with the configuration and the dependencies , this is actually a image , 
+container is when i pull that image on my local machine so the application inside actually starts that creates the container environment so if it is not running then it is an image and if i start it and run it on my machine then it is a container 
